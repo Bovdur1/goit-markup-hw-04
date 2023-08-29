@@ -115,8 +115,8 @@ img {
     column-gap: 40px;
 }
 
-.link-nav,
-.contacts {
+.navigation-item,
+.contact-item {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -153,6 +153,7 @@ img {
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
     margin: 0 auto;
@@ -290,7 +291,7 @@ img {
 
 .social-media-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     justify-content: center;
     margin-top: 8px;
 }
@@ -408,7 +409,7 @@ img {
 
 .footer-social-media-list {
     display: flex;
-    column-gap: 16px;
+    gap: 16px;
 }
 
 .footer-list-item {
