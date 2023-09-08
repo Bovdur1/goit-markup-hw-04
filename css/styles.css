@@ -51,7 +51,7 @@ img {
     padding: 0 15px;
 }
 
-/* =======HEADER=========== */
+/*================HEADER=========== */
 
 .header {
     border-bottom: 1px solid #E7E9FC;
@@ -70,10 +70,6 @@ img {
 
 .logo-header {
     margin-right: 76px;
-}
-
-.logo-header,
-.logo-footer {
     color: var(--primary-brand);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -394,9 +390,15 @@ img {
     color: var(--primary-brand);
     display: inline-block;
     margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-darat .logo-part-footer {
+.logo-part-footer {
     color: var(--background);
 }
 
